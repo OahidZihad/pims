@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .component_container{
+    padding: 0 70px 0 150px;
+  }
+
+  .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(187, 187, 187);
+    opacity: 1; /* Firefox */
+  }
+
+  .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(187, 187, 187);
+  }
+
+  .form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(187, 187, 187);
+  }
+
+  :root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Montserrat", sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    font-family: var(--primary-font);
+  }
+
+  @media (max-width: 1199.98px) {
+    label {
+      font-size: small;
+    }
+
+    .form-control {
+      padding: .20rem .50rem;
+    }
+
+    .form-select {
+      padding: .20rem .50rem;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .component_container{
+      padding: 0 10px 0 90px;
+    }
+  }
+
+
+
